@@ -1,6 +1,5 @@
 'use client'
 
-import { cn } from '@/lib/utils'
 import {
   Content,
   Portal,
@@ -8,6 +7,7 @@ import {
   Root,
   Trigger,
 } from '@radix-ui/react-tooltip'
+import { cn } from '@/lib/utils'
 
 const TooltipProvider = Provider
 

@@ -152,6 +152,7 @@ export default antfu(
       'no-constant-condition': ['error', { checkLoops: false }],
       'no-console': 'off',
       'style/brace-style': ['warn', '1tbs'],
+      'perfectionist/sort-imports': 'off',
       'import/order': [
         'warn',
         {
@@ -164,13 +165,6 @@ export default antfu(
             'parent',
             'sibling',
             'index',
-          ],
-          pathGroups: [
-            {
-              pattern: '~/**',
-              group: 'external',
-              position: 'after',
-            },
           ],
         },
       ],
